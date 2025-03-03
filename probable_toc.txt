@@ -1,0 +1,352 @@
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© United Nations Children’s Fund, Cambodia, 2024 
+ 
+August 2024  
+ 
+The purpose of publishing evaluation reports produced by UNICEF Cambodia is to fulfil a corporate 
+commitment to transparency. The reports are designed to stimulate a free exchange of ideas among 
+those interested in the topic and to assure those supporting the work of UNICEF that it rigorously 
+examines its strategies, results and overall effectiveness.  
+ 
+The contents of the report do not necessarily reflect the policies or views of UNICEF. The designations in 
+this publication do not imply an opinion on the legal status of any country or territory, or of its 
+authorities, or the delimitation of frontiers.  
+ 
+The copyright for this report is held by the United Nations Children’s Fund. Permission is required to 
+reprint/reproduce/photocopy or in any other way cite or quote from this report in written form. UNICEF 
+has a formal permission policy that requires a written request to be submitted. For non-commercial 
+uses, the permission will normally be granted free of charge. Please write to UNICEF at the address 
+below to initiate a permission request.  
+ 
+Front cover photo: © UNICEF Cambodia/2020/Antoine Raab  
+ 
+For further information, please contact:  
+United Nations Children’s Fund  
+Exchange Square, 5th floor  
+Bldg. no. 19&24 Street 106, Sangkat Wat Phnom, Khan Daun Penh, Phnom Penh  
+Email: phnompenh@unicef.org 
+Website: http://www.unicef.org/cambodia  
+ 
+ 
+National Social Protection Council 
+Ministry of Economy and Finance 
+St. 92, Sangkat Wat Phnom, Khan Daun Penh, Phnom Penh 
+Email: info@nspc.mef.gov.kh 
+Website: http://nspc.gov.kh  
+ 
+ 
+ 
+
+
+3 
+ 
+ 
+Acknowledgements  
+I extend my sincere gratitude to the Ministry of Social Affairs, Veterans and Youth Rehabilitation 
+(MoSVY), and to the General Secretariat for the National Social Protection Council (GS-NSPC), which led 
+the process of the evaluation commissioned by UNICEF. Thanks also to other stakeholders including 
+United Nations agencies and development partners for their invaluable contributions during the 
+evaluation. The aim of this evaluation was to assess the relevance, effectiveness, efficiency, coherence 
+and sustainability of the Disability Identification Mechanism (DIM). 
+Special recognition is due to the leadership and staff of the Policy and Public Finance for Children 
+(PPF4C) section of UNICEF Cambodia for their persistent support throughout the evaluation process. I 
+reserve particular acknowledgement for the Evaluation Specialist at UNICEF Cambodia for his dedication 
+in ensuring that the process evaluation adhered to UNICEF evaluation standards. 
+I express deep appreciation to persons with disabilities who generously shared their experiences and 
+insights, which were indispensable for the evaluation process. Furthermore, I would like to express 
+gratitude to my assistants for their pivotal role in the successful execution of the evaluation. 
+The evaluation report is anticipated to serve as a guiding framework for enhancing the disability 
+identification process and improving the well-being of the most vulnerable individuals, particularly 
+persons with disabilities, in Cambodia. 
+Damien Mbonitegeka, International Consultant  
+August 2024 
+ 
+ 
+ 
+
+
+4 
+ 
+ 
+Contents  
+ 
+ABBREVIATIONS………………………………………........................................................................................…6 
+EXECUTIVE SUMMARY……………………………………………………………………………....……………………………………7 
+1.INTRODUCTION……………………………………………………………………………………………………………………………13 
+2. CONTEXT AND DESCRIPTION OF DIM…………………………………………………………………………………………. 24 
+2.1. Key stakeholder involved in disability inclusion…………………………………………………………………. 24 
+2.2. Inclusive service delivery…………………………………………………………………………………………………… 25 
+2.3. Disability assessment and referral services………………………………………………………………………… 25 
+2.4. Policy Context……………………………………………………………………………………………………………………. 25 
+2.5. Legislative Framework……………………………………………………………………………………………………….. 25 
+2.6. Disability identification through social-and rights-based models……………………………………….. 26 
+2.7. Background of Disability identification Implementation Mechanisms in Cambodia…………… 27 
+2.8. Community Engagement…………………………………………………………………………………………………… 28 
+2.9. Data Management…………………………………………………………………………………………………………….. 29 
+3.EVALUATION PURPOSE, OBJECTIVES, AND SCOPE………………………………………………………………………. 29 
+3.1. Audience for the Evaluation………………………………………………………………………………………………. 30 
+3.2. Evaluation Management Team………………………………………………………………………………………….. 31 
+3.3. Evaluation Framework and Questions……………………………………………………………………………….. 31 
+4.EVALUATION METHODOLOGY…………………………………………………………………………………………………… 33 
+4.1. Evaluation methods…………………………………………………………………………………………………………… 33 
+4.2. Data Collection tools…………………………………………………………………………………………………………. 33 
+4.3. Sample Size……………………………………………………………………………………………………………………….. 33 
+4.4. Desk Review………………………………………………………………………………………………………………………. 36 
+4.5. Data collection………………………………………………………………………………………………………………….. 36 
+4.5.1. Key Informant Interviews (KIIs)…………………………………………………………………………………… 36 
+4.5.2 Qualitative Survey Using an Online Platform……………………………………………………………….. 38 
+4.5.3. Focus Group Discussions (FGDs)…………………………………………………………………………………. 38 
+4.5.4. Stakeholder Consultation……………………………………………………………………………………………. 38 
+4.5.5. Case Studies……………………………………………………………………………………………………………….. 38 
+4.5.6. Observations………………………………………………………………………………………………………………. 39 
+4.6. Data Processing and Analysis………………………………………………………………………………………….…...39 
+4.7. Presentation of Preliminary Findings…………………………………………………………………………………. 40 
+4.8. Further Data Analysis and Presentation of Final Report………………………………………………….……41 
+4.9. Limitations……………………………………………………………………………………………………………………..……41 
+4.9.1. Representative Sampling……………………………………………………………………………………………..41 
+4.9.2. unbiased responses…………………………………………………………………………………………………….. 41 
+4.10. Ethical considerations………………………………………………………………………………………………….…….42 
+4.11. Equity, gender and human rights…………………………………………………………………………………….. 42 
+5. FINDINGS…………………………………………………………………………………………………………………………….……..44 
+5.1. Relevance………………………………………………………………………………………………………………………….. 44 
+5.1.1. Alignment with national priorities and international standards……………………………………45 
+5.1.2.DIM through a participatory approach………………………………………………………………………… 45 
+5.2. Effectiveness……………………………………………………………………………………………………………………….46 
+5.2.1. Disability Identification Mechanism design…………………………………………………………………. 46 
+5.2.2. Effectiveness in following the steps of Identification Guidelines……………………………………47 
+5.2.3. Effectiveness in data collection Process………………………………………………………………………..49 
+5.2.4. Centralized DIM database………………………………………………………………………………………….….50 
+5.2.5. Issuance of disability ID cards………………………………………………………………………………………..50 
+5.2.6. Benefits from Disability Cards……………………………………………………………………………………… 51 
+5.3. Coherence…………………………………………………………………………………………………………………….……..51 
+5.3.1. Collaboration and Coordination at central level………………………………………………………….. 52 
+5.3.2. Effective implementation of DIM at the provincial, district, and commune levels………..53 
+5.3.3. Synergies with social protection initiatives…………………………………………………………………. 53 
+5.4. Efficiency…………………………………………………………………………………………………………………………… 54 
+5.4.1. Timeframe of Issuing Disability Cards…………………………………………………………………………..54 
+5.4.2. Monitoring and Field Support Budget ………………………………………………………………………… 54 
+5.5. Sustainability…………………………………………………………………………………………………………………….. 56 
+
+
+5 
+ 
+ 
+5.6. Equity, Gender Equality, and Human Rights Considerations………………………………………………. 56 
+5.6.1. Rights-Based Approach………………………………………………………………………………………………. 57 
+5.6.2. Stigma and discrimination…………………………………………………………………………………………… 57 
+5.6.3. Participation of Women and Girls with Disabilities…………………………..………………………... 58 
+5.7. Challenges…………………………………………………………………………………………………………………………. 58 
+5.7.1. Impact of COVID-19 on Disability Identification Process……………………………………………… 58 
+5.7.2. Human Resources Dedicated to Disability Identification Process………………………………….59 
+5.7.3. Capacity building at the province, district, and commune levels…………………………………. 59 
+5.7.4. Disability Card Printing Issues……………………………………………………………………………………… 60 
+5.7.5. Identification of Specific Types of Disability………………………………………………………………….60 
+5.7.6. Physical barriers………………………………………………………………………………………………………….. 60 
+5.7.7. Informational barriers…………………………………………………………………………………………………. 61 
+6.CONCLUSIONS AND LESSONS LEARNED……………………………………………………………………………………… 62 
+7.RECOMMENDATIONS……………………………………………………………………………………………………………….. 65 
+8. ANNEXES……………………………………………………………………………………………………………………………………. 69 
+ 
+List of Tables 
+ 
+Table 1: Disability identification process ........................................................................................... 28 
+Table 2: People reached through KIIs and FGDs ................................................................................ 35 
+Table 3: Phases of process evaluation ............................................................................................... 43 
+ 
+List of Figures 
+ 
+Figure 1: Map of Cambodia with 25 provinces .................................................................................. 34 
+Figure 2: FGD with representatives of persons with disabilities and disability focal points in Preah 
+Vihear, May 2024. ..................................................................................................................... 45 
+Figure 3: FGD with PDoSVY and district disability focal point at Preah Vihear, May 2024. ............... 53 
+Figure 4: FGD with PDoSVY and district disability focal point in Ratanakiri, May 2024. .................... 56 
+Figure 5: FGDs with disability identification focal points in Teuk Chhou district, May 2024. ............ 59 
+ 
+ 
+ 
+ 
+
+
+6 
+ 
+ 
+ABBREVIATIONS  
+ 
+CRPD 
+Convention on the Rights of Persons with Disabilities 
+DAC 
+Disability Action Council 
+DIM 
+Disability Identification Mechanism 
+DFAT 
+Australian Department of Foreign Affairs and Trade 
+DMIS 
+DRA
+Disability Management Information System 
+Disability Rights Administration
+DWPD
+Department of Welfare of Persons with Disabilities
+EU
+European Union
+FGDs 
+focus group discussions 
+GS-NSPC 
+General Secretariat for the National Social Protection Council 
+KIIs 
+key informant interviews 
+M&E 
+monitoring and evaluation 
+MoH 
+Ministry of Health 
+MoI 
+Ministry of Interior 
+MoP
+Ministry of Planning
+MoSVY
+Ministry of Social Affairs, Veterans and Youth Rehabilitation
+NDSP
+National Disability Strategic Plan
+NGOs 
+non-governmental organizations 
+NSA-FP 
+National Social Assistance Family Package (for IDPoor households and the vulnerable) 
+NSPPF 
+National Social Protection Policy Framework 
+IDPoor 
+National Identification of Poor Households Programme 
+OECD 
+Organisation for Economic Co-operation and Development 
+OPDs 
+organizations of persons with disabilities 
+PDoSVY 
+Provincial Department of Social Affairs, Veterans and Youth Rehabilitation 
+RGC
+Royal Government of Cambodia
+RTI
+Research Triangle Institute International
+SDG
+Sustainable Development Goal
+UNDP 
+United Nations Development Programme 
+UNEG 
+United Nations Evaluation Group 
+UNICEF 
+United Nations Children's Fund 
+UNESCO 
+United Nations Educational, Scientific and Cultural Organization 
+UN Women  
+United Nations Entity for Gender Equality and the Empowerment of Women 
+WHO 
+World Health Organization 
+ 
+ 
+ 
+ 
+
+
+7 
+ 
+ 
+EXECUTIVE SUMMARY 
+Context and description of the Disability Identification Mechanism 
+The Disability Identification Mechanism (DIM) in Cambodia serves as part of the national social 
+protection system designed to uphold the rights of persons with disabilities and promote their inclusion 
+in society. Its inception traces back to the adoption of the Law on the Protection and Promotion of the 
+Rights of Persons with Disabilities in 2009, followed by Cambodia's ratification of the Convention on the 
+Rights of Persons with Disabilities (CRPD) in 2012. These legislative frameworks underscore Cambodia's 
+dedication to safeguarding the rights of persons with disabilities. 
+To translate these commitments into action, Cambodia introduced the Guideline on Social- and Rights-
+Based Disability Identification in August 2020,1 under the purview of the Ministry of Social Affairs, 
+Veterans and Youth Rehabilitation (MoSVY). This guideline established a standardized procedure for 
+identifying persons with disabilities. Central to this process is the Disability Management Information 
+System (DMIS), a centralized database tasked with collecting and storing disability-related data. 
+ 
+The MoSVY issues disability cards based on information in the DMIS used to identify individuals as 
+persons with disabilities. Once identified and found to meet the eligibility criteria, these individuals can 
+access various social protection benefits and services provided by the Royal Government of Cambodia 
+(RGC) and its partners. The institutionalization of this mechanism was further solidified by the RGC Sub-
+decree on Identification of Disabilities by Social Model and Basic Rights adopted in July 2023. 
+ 
+The DIM operates through a dynamic multi-stakeholder approach, involving various government 
+ministries, agencies and partners to ensure comprehensive implementation. MoSVY assumes a central 
+role in coordinating and executing DIM initiatives, underscoring its commitment to disability inclusion 
+and social protection. 
+ 
+Evaluation purpose, objectives and audience 
+The General Secretariat for the National Social Protection Council (GS-NSPC), with support from MoSVY 
+and the United Nations Children’s Fund (UNICEF) conducted a process evaluation of the DIM. The 
+primary aim of this evaluation was to facilitate learning and improvement within the disability 
+identification process. 
+The process evaluation concentrated on analysing the design and implementation of the DIM, with 
+particular emphasis on assessing its effectiveness, efficiency and accuracy. Key objectives included 
+evaluating the robustness of the operational framework and identifying barriers that impede the 
+identification process. 
+The evaluation criteria utilized standards from the Organisation for Economic Co-operation and 
+Development (OECD) and the Disability Action Council (DAC), which were adapted to align with the 
+specific objectives of the process evaluation. Relevance, effectiveness, efficiency, sustainability and 
+coherence were among the criteria considered, with a focused attention on cross-cutting themes such 
+as equity, gender equality and human rights. 
+ 
+1 Ministry of Social, Veterans and Youth Rehabilitation, ‘Guideline on Social and Rights-Based Disability Identification’, Phnom Penh, August 2020. 
+ 
+
+
+8 
+ 
+ 
+Audience for the evaluation 
+The primary audience and intended users of the evaluation findings comprise: 
+1. GS-NSPC: The GS-NSPC will utilize the findings to enhance coordination efforts and improve 
+overall effectiveness of the identification mechanism. 
+2. MoSVY: Being the lead implementing ministry, MoSVY will refine its strategies and address 
+challenges based on the evaluation results, thereby enhancing its role in disability inclusion 
+initiatives. 
+3. UNICEF Cambodia: As the commissioned United Nations agency, UNICEF Cambodia will enhance 
+its support for the DIM, including financial and technical support, as well as capacity building for 
+disability focal points.  
+4.  Other United Nations agencies: Sister agencies will strengthen their support for the DIM and 
+enhance their contributions to disability inclusion initiatives in Cambodia. 
+5. Implementing line ministries: This includes the Ministry of Interior (MoI), the Ministry of 
+Planning (MoP), the Ministry of Health (MoH), the Council for the Development of Cambodia, 
+and the DAC. They will receive recommendations aimed at improving their roles in the disability 
+identification process, fostering greater effectiveness and efficiency. 
+Secondary audiences include development partners and donors operating in disability inclusion and 
+social protection sectors. They will leverage the findings to inform their strategies and investments in 
+Cambodia and beyond, thereby contributing to broader efforts towards disability inclusion and social 
+protection. 
+Evaluation methodology 
+The evaluation employed a mixed-methods approach, combining document review, qualitative data 
+collection and secondary data analysis to comprehensively assess Cambodia's Social- and Rights-Based 
+DIM. The methodology aimed to generate evidence-based recommendations for enhancing the 
+disability identification process. 
+A comprehensive review of pertinent documents, including laws, guidelines, reports and protocols, 
+provided insights into the background, objectives and implementation framework of the DIM. Key 
+documents comprised national and international policy documents on disability rights, DIM guidelines 
+and reports related to social protection efforts. 
+Secondary quantitative data, drawn from the DMIS database, underwent analysis to discern trends and 
+patterns in DIM implementation. These data were cross-referenced with primary qualitative data to 
+gauge the extent of the disability identification process. 
+Primary qualitative data were acquired through key informant interviews (KIIs), focus group discussions 
+(FGDs), case studies and online survey questionnaires sent to Provincial Departments of Social Affairs, 
+Veterans and Youth Rehabilitation (PDoSVYs). KIIs and FGDs delved into stakeholders' perspectives on 
+DIM implementation and areas for improvement, while case studies provided detailed insights into 
+specific challenges faced by individuals with disabilities. Consultations with persons with disabilities, 
+families, caregivers and key stakeholders ensured inclusivity and captured diverse perspectives in the 
+evaluation process. Site visits observed disability identification processes firsthand, facilitating a 
+nuanced understanding of DIM implementation on the ground. 
+Semi-structured tools for KIIs and FGDs were devised, encompassing evaluation questions delineated in 
+the evaluation matrix. Ethical data collection was ensured through an ethical review process including 
+informed consent forms, and data collection tools were translated into Khmer for accessibility. A 
+
+
