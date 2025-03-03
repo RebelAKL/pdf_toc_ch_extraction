@@ -1,74 +1,66 @@
-import fitz
+import pymupdf,fitz
 import re
-import logging
-import os
 import pandas as pd
-import argparse
-from openpyxl import Workbook
+import os
+EXCEL_CHAR_LIMIT = 32767 
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+def extract_text_from_pdf(pdf_path, start_page, end_page):
+    doc = fitz.open(pdf_path)
+    text = ""
+    for page_num in range(start_page - 1, end_page):
+        text += doc[page_num].get_text("text") + "\n\n"
+    return text
 
-def extract_findings_from_pdf(pdf_path):
-    try:
-        doc = fitz.open(pdf_path)
-        findings_text = ""
-        in_findings = False
-        pattern_findings = re.compile(r'^\s*\d+\.\s*FINDINGS\b', re.IGNORECASE | re.MULTILINE)
-        pattern_next = re.compile(r'^\s*\d+\.\s*[A-Z]', re.MULTILINE)
-        for page_num in range(len(doc)):
-            page_text = doc[page_num].get_text()
-            if not in_findings:
-                m = pattern_findings.search(page_text)
-                if m:
-                    in_findings = True
-                    findings_text += page_text[m.end():] + "\n"
-            else:
-                m_next = pattern_next.search(page_text)
-                if m_next:
-                    findings_text += page_text[:m_next.start()]
-                    break
-                else:
-                    findings_text += page_text + "\n"
-        return findings_text.strip()
-    except Exception as e:
-        logging.error(f"Error processing {pdf_path}: {str(e)}")
-        return ""
+def find_chapter_pages(toc_text, chapter_name="FINDINGS"):
+    pattern = r'^\s*(\d*\.*\s*)?([A-Z][A-Z\s\-]+)\s*[\.…]*\s*(\d+)\s*$'
+    matches = re.findall(pattern, toc_text, re.MULTILINE)
 
-def process_directory(pdf_dir, output_excel):
-    results = []
-    pdf_files = [f for f in os.listdir(pdf_dir) if f.lower().endswith('.pdf')]
-    for filename in pdf_files:
-        pdf_path = os.path.join(pdf_dir, filename)
-        text = extract_findings_from_pdf(pdf_path)
-        if text:
-            results.append({'PDF Name': filename, 'Findings Content': text})
-            logging.info(f"Extracted FINDINGS from {filename}")
+    chapters = []
+    for match in matches:
+        _, title, page = match
+        title = title.strip()
+        page = int(page)
+        chapters.append((title, page))
+
+    start_page = end_page = None
+    for i, (title, page) in enumerate(chapters):
+        if title.lower() == chapter_name.lower():
+            start_page = page
+            if i + 1 < len(chapters):
+                end_page = chapters[i + 1][1] - 1 
+            break
+
+    return start_page, end_page
+
+def split_text_into_cells(text, max_length=EXCEL_CHAR_LIMIT):
+    chunks = [text[i:i+max_length] for i in range(0, len(text), max_length)]
+    return chunks
+
+def process_pdfs(pdf_folder, output_excel):
+    data = []
+    pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith(".pdf")]
+    for pdf_file in pdf_files:
+        pdf_path = os.path.join(pdf_folder, pdf_file)
+        toc_text = extract_text_from_pdf(pdf_path, 2, 10)
+        start_page, end_page = find_chapter_pages(toc_text)
+        if start_page and end_page:
+            findings_text = extract_text_from_pdf(pdf_path, start_page, end_page)
+            print(f"Processed {pdf_file}: Findings from page {start_page} to {end_page}")
         else:
-            logging.warning(f"No FINDINGS found in {filename}")
-    if results:
-        df = pd.DataFrame(results)
-        for i, row in df.iterrows():
-            content = row['Findings Content']
-            if len(content) > 32000:
-                parts = [content[j:j+32000] for j in range(0, len(content), 32000)]
-                for j, part in enumerate(parts):
-                    df.at[i + j, 'Findings Content'] = part
-                    df.at[i + j, 'PDF Name'] = row['PDF Name'] if j == 0 else ""
-        with pd.ExcelWriter(output_excel, engine='openpyxl') as writer:
-            df.to_excel(writer, index=False)
-            worksheet = writer.sheets['Sheet1']
-            worksheet.column_dimensions['A'].width = 40
-            worksheet.column_dimensions['B'].width = 120
-        logging.info(f"Saved results to {output_excel}")
-    else:
-        logging.warning("No results to save.")
+            findings_text = "Chapter 'FINDINGS' not found."
+            print(f"Skipping {pdf_file}: FINDINGS chapter not detected")
+        text_chunks = split_text_into_cells(findings_text)
+        row_data = [pdf_file] + text_chunks
+        data.append(row_data)
+    max_columns = max(len(row) for row in data) 
+    column_names = ["PDF Name"] + [f"Extracted Text (Part {i})" for i in range(1, max_columns)]
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--pdf_dir", required=True)
-    parser.add_argument("--output_excel", required=True)
-    args = parser.parse_args()
-    process_directory(args.pdf_dir, args.output_excel)
+    df = pd.DataFrame(data, columns=column_names)
+    
+    df.to_excel(output_excel, index=False)
+    print(f"Results saved to {output_excel}")
 
-if __name__ == '__main__':
-    main()
+pdf_folder = "path to pdfs dir"
+output_excel = "findings_extracted.xlsx"
+
+process_pdfs(pdf_folder, output_excel)
