@@ -60,7 +60,7 @@ def process_pdfs(pdf_folder, output_excel):
     df.to_excel(output_excel, index=False)
     print(f"Results saved to {output_excel}")
 
-pdf_folder = "path to pdfs dir"
+pdf_folder = "PDF_FILES"
 output_excel = "findings_extracted.xlsx"
 
 process_pdfs(pdf_folder, output_excel)
